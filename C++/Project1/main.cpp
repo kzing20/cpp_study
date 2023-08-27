@@ -85,11 +85,46 @@ int main() {
 
 	iTrue = 0 || 300; // 1(둘중 하나라도 참이면 1)
 
+	//비교 연산자
+	// ==, !=, <, >, <=, >=
+	// 참, 거짓
+
 
 	//구문
 	//if, else
 	// switch case
+	data = 0;
+	
+	if (0 && 200)
+	{
+		data = 100;
 
+	}
+	if (data == 100) {
+		//if가 참인 경우 수행
+	}
+	else
+	{
+		//if가 거짓인 경우 수행
+	}
+
+	if(data==100) {
+	}
+	else if (100) {
+	}
+	else {
+	}
+
+	switch (10) {
+	case 10:
+		break;
+
+	case 20:
+		break;
+
+	default:
+		break;
+	}
 
 	//삼항 연산자
 	// :?
