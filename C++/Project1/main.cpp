@@ -128,7 +128,19 @@ int main() {
 
 	//삼항 연산자
 	// :?
+	int iTest = 20;
 
+	iTest == 20 ? iTest = 100 : iTest = 200;
+	
+	// 같은 의미
+	if (iTest == 20)
+	{
+		iTest = 100;
+	}
+	else
+	{
+		iTest = 200;
+	}
 
 	return 0;
 }
