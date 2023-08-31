@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="DayOfYear.h" />
+    <ClInclude Include="Holiday.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DayOfYear.cpp" />
+    <ClCompile Include="Holiday.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

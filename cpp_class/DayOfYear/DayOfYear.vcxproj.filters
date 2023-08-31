@@ -18,12 +18,18 @@
     <ClInclude Include="DayOfYear.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Holiday.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DayOfYear.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Holiday.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
