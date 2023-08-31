@@ -9,6 +9,8 @@ public:
 	DayOfYear(int monthValue); 
 	DayOfYear(); 
 
+	~DayOfYear();
+
 	void output();
 	void testDate();
 

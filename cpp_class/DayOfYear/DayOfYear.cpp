@@ -25,7 +25,9 @@ DayOfYear::DayOfYear()
 	//day = 1;
 }
 
-
+DayOfYear::~DayOfYear() {
+	cout << "~DayOfYear() is called " << endl;
+}
 
 int DayOfYear::getMonth() { // :: 영역 지정 연산자
 	return this->month;
