@@ -5,6 +5,13 @@ class DayOfYear {
 	int day;
 
 public:
+	DayOfYear(int monthValue, int dayValue);
+	DayOfYear(int monthValue); 
+	DayOfYear(); 
+
+	void output();
+	void testDate();
+
 	int getMonth(); //getter ÇÔ¼ö
 	int getDay();
 
