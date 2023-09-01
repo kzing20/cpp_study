@@ -20,6 +20,7 @@ int main() {
 
 	ptr = new Node(1);
 	ptr->setNext(next); // 1-->2
+	next = ptr;
 
 	last->setNext(next); // 3-->1
 
